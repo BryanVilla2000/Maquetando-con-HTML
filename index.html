@@ -1,41 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dashboard de Nómina NetPlus</title>
 </head>
 <body>
-    <h1> Dashboard de nomina netplus </h1>
 
-    <img src="img/netplus.jpeg" alt="">
-    
+    <h1>Dashboard de Nómina NetPlus</h1>
+    <img src="img/netplus.jpeg" alt="Logo NetPlus" width="150" height="150">
+
     <section>
-        <p>lugar donde estar todo la parte de donde podra nomas acceder el usuario</p>
+        <h2>Menú</h2>
+        <p>Lugar donde el usuario puede acceder a las opciones del sistema</p>
+        <ul>
+            <li>Inicio</li>
+            <li>Importar Excel</li>
+            <li>Reportes</li>
+            <li>Configuraciones</li>
+            <li>Salir</li>
+        </ul>
+    </section>
 
-        <h3>inicio</h3>
-        <h3>configuraciones</h3>
-        <h3>reporte</h3>
-        <h3>salir</h3>
-        <article></article>
-
+    <section>
+        <h2>Importar marcaciones</h2>
+        <p>Suba el archivo Excel exportado de Z-BioTime</p>
+        <input type="file">
+        <button>Importar</button>
     </section>
 
     <section>
         <nav>
-            <p>navegacion para poder actualizar la tabla con la informavion que desea ver el usuario</p>
-            <h3>Vacacones</h3>
-            <h3>marcaciones</h3>
-
+            <p>Navegación para actualizar la tabla con la información que desea ver el usuario</p>
+            <a href="#">Marcaciones</a>
+            <a href="#">Vacaciones</a>
         </nav>
-        <P>tabla con la informavcion de los empleados </P>
-        <table>
-            <tr>nombre</tr>
-            <tr>hora entrada</tr>
-            <tr>hora salida</tr>
+
+        <p>Tabla con la información de los empleados</p>
+        <table border="1">
+            <tr>
+                <th>Nombre</th>
+                <th>Hora entrada</th>
+                <th>Hora salida</th>
+            </tr>
+            <tr>
+                <td>Juan Pérez</td>
+                <td>08:00</td>
+                <td>17:00</td>
+            </tr>
         </table>
     </section>
-    
 
 </body>
 </html>
